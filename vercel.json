@@ -2,6 +2,12 @@
     "buildCommand": "./mvnw spring-boot:run", 
     "devCommand": "./mvnw spring-boot:run",
     "framework": "spring boot",
-    "outputDirectory": "./target"
+    "outputDirectory": "./target",
+    "routes": [
+        {
+          "src": "/(.*)",
+          "dest": "/index.html"
+        }
+      ]
 
   }
