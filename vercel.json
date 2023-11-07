@@ -1,7 +1,7 @@
 {
     "buildCommand": "./mvnw spring-boot:run", 
     "devCommand": "./mvnw spring-boot:run",
-    "framework": "other",
+    "framework": "null",
     "outputDirectory": "./target",
     "routes": [
         {
