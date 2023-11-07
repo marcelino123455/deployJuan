@@ -7,6 +7,10 @@
         {
           "src": "/",
           "dest": "/index.html"
+        },
+        {
+            "src":"/api/auth/signup",
+            "dest":"/src/main/java/com/example/demo/Authentification/auth/AuthController"
         }
       ]
 
