@@ -1,0 +1,7 @@
+{
+    "buildCommand": "./mvnw spring-boot:run", 
+    "devCommand": "./mvnw spring-boot:run",
+    "framework": "spring boot",
+    "outputDirectory": "./target"
+
+  }
