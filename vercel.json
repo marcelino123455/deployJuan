@@ -2,10 +2,10 @@
     "buildCommand": null, 
     "devCommand": "./mvnw spring-boot:run",
     "framework": null,
-    "outputDirectory": "./target",
+    "outputDirectory": "Other",
     "routes": [
         {
-          "src": "/(.*)",
+          "src": "/",
           "dest": "/index.html"
         }
       ]
